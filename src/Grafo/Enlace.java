@@ -21,7 +21,7 @@ public class Enlace {
         this.y2 = y2;
     }
     public void pintar(Graphics g){
-        g.drawLine(x1, y1, x2, y2);    
+        g.drawLine(x1, y1, x2, y2);       
     }
 
     public int getX1() {
