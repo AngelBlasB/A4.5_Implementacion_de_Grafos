@@ -26,6 +26,7 @@ public class Lienzo extends JPanel implements MouseListener {
     }
     @Override
     public void paint(Graphics g){
+        super.paint(g);
         for(Nodo nodos: vectorNodos){
             nodos.pintar(g); 
         }

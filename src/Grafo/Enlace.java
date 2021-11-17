@@ -36,7 +36,7 @@ public class Enlace {
             g.drawString(nombre, x1 - Math.abs((x1 - x2) / 2), y2 - Math.abs((y1 - y2) / 2));
         }
         
-        if (x1 > x2 && y1 > y2) {
+        if (x1 < x2 && y1 > y2) {
 
             g.drawString(nombre, x2 - Math.abs((x1 - x2) / 2), y1 - Math.abs((y1 - y2) / 2));
         }
