@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author Lesli
+ * @author Lesli,Angel,Liliana
  */
 public class Grafo {
 
