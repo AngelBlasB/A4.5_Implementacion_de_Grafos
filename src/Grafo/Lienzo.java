@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Lesli
+ * @author ADMIN
  */
 public class Lienzo extends JPanel implements MouseListener,MouseMotionListener {//Agregúe el MOUSEMOTION
     private  Vector<Nodo>vectorNodos;
